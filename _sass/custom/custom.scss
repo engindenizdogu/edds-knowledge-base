@@ -1,1 +1,39 @@
 // custom SCSS (or CSS) goes here
+
+// Override site title font size
+.site-title {
+  font-size: 1rem !important;
+  font-weight: 600;
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+// Add more space after h4 headings
+.main-content h4 {
+  margin-bottom: 1em !important;
+}
+
+// Style details summary as h3 header
+details summary {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background: none;
+    text-decoration: none;
+    margin-top: 1em !important;
+    
+    &:hover {
+      color: var(--link-hover);
+    }
+    
+    &:focus {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+  }

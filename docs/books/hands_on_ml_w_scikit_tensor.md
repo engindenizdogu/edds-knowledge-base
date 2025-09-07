@@ -3,38 +3,46 @@ title: Hands on ML with Scikit Learn, Keras and TensorFlow
 parent: Books
 ---
 
-**Code Examples:** [ageron/handson-ml3: A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.](https://github.com/ageron/handson-ml3/tree/main)
+### **Hands on Machine Learning with Scikit Learn Keras and TensorFlow**
+
+#### **Aurélien Geron, 2nd Edition**
 
 ```bash
 conda activate mldl
 ```
 
 ```bash
-jupyter notebook --notebook-dir="C:\Users\deniz\OneDrive\Masaüstü\local repos\HandsOnML"
+jupyter notebook --notebook-dir="<directory>"
 ```
 
-## 1. ML Landscape
+{: .note-title }
+> Find code examples at:
+>
+> [ageron/handson-ml3: A series of Jupyter notebooks that walk you through the fundamentals of ML and DL in Python](https://github.com/ageron/handson-ml3/tree/main)
+
+<details markdown="block">
+<summary> 1. ML Landscape </summary>
 
 1. **Supervised ML**
-   1. k-Nearest Neighbors
-   2. Linear Regression
-   3. Logistic Regression
-   4. Support Vector Machines (SVMs)
-   5. Decision Trees and Random Forests
+   - k-Nearest Neighbors
+   - Linear Regression
+   - Logistic Regression
+   - Support Vector Machines (SVMs)
+   - Decision Trees and Random Forests
 
 2. **Unsupervised ML**
    - **Clustering**
-     1. k-Means
-     2. Hierarchical Cluster Analysis (HCA)
-     3. Expectation Maximization
+     - k-Means
+     - Hierarchical Cluster Analysis (HCA)
+     - Expectation Maximization
    - **Visualization and dimensionality reduction**
-     1. Principal Component Analysis (PCA)
-     2. Kernel PCA
-     3. Locally-Linear Embedding (LLE)
-     4. t-distributed Stochastic Neighbor Embedding (t-SNE)
+     - Principal Component Analysis (PCA)
+     - Kernel PCA
+     - Locally-Linear Embedding (LLE)
+     - t-distributed Stochastic Neighbor Embedding (t-SNE)
    - **Association rule learning**
-     1. Apriori
-     2. Eclat
+     - Apriori
+     - Eclat
 
 3. **Semisupervised Learning**
 
@@ -68,7 +76,7 @@ When the model is too simple.
 
 Commonly used when the dataset is small and splitting it into three subsets (training, validation, test) yields a model that is too simple.
 
-[Course: The Data Science Course: Complete Data Science Bootcamp 2025 | Udemy](https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/learn/lecture/10784420#search)
+[Course: The Data Science Course: Complete Data Science Bootcamp 2025 (Udemy)](https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/learn/lecture/10784420#search)
 
 #### Chapter Questions
 1. How would you define Machine Learning?
@@ -91,14 +99,16 @@ Commonly used when the dataset is small and splitting it into three subsets (tra
 18. What can go wrong if you tune hyperparameters using the test set?
 19. What is cross-validation and why would you prefer it to a validation set?
 
+</details>
 
-## 2. End-to-end ML Project
+<details markdown="block">
+<summary> 2. End-to-end ML Project </summary>
 
 > Appendix B - ML Workflow Checklist
 
-#### Sorular
+#### Question
 
-- scikit-learn: Estimator'lardaki fit(), transform() ve fit_transform() fonksiyonlarının farkı ne?
+- scikit-learn: What's the difference between fit(), transform() ve fit_transform() functions?
 
 #### Exercises
 1. Try a Support Vector Machine regressor (sklearn.svm.SVR), with various hyper parameters such as kernel="linear" (with various values for the C hyperpara meter) or kernel="rbf" (with various values for the C and gamma hyperparameters). Don’t worry about what these hyperparameters mean for now. How does the best SVR predictor perform?
@@ -107,7 +117,10 @@ Commonly used when the dataset is small and splitting it into three subsets (tra
 4. Try creating a single pipeline that does the full data preparation plus the final prediction. 
 5. Automatically explore some preparation options using GridSearchCV.
 
-## 3. Classification
+</details>
+
+<details markdown="block">
+<summary> 3. Classification </summary>
 
 ### Metrics: Accuracy, Precision, Recall & F1 Score
 
@@ -128,14 +141,19 @@ y_scores = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3, method='decision
 
 It is fairly easy to create a classifier with virtually any precision you want: just set a high enough threshold, and you’re done. Hmm, not so fast. A high-precision classifier is not very useful if its recall is too low!
 
-> **Precision/Recall Tradeoff**
-> If someone says “let’s reach 99% precision,” you should ask, “at what recall?”
+{: .note-title }
+> Precision/Recall Tradeoff
+>
+> If someone says “let’s reach 99% precision” you should ask, “at what recall?”
 
 ### ROC Curve vs. PR Curve
 
 Since the ROC curve is so similar to the precision/recall (or PR) curve, you may wonder how to decide which one to use. *As a rule of thumb, you should prefer the PR curve whenever the positive class is rare or when you care more about the false positives than the false negatives, and the ROC curve otherwise.* For example, looking at the previous ROC curve (and the ROC AUC score), you may think that the classifier is really good. But this is mostly because there are few positives (5s) compared to the negatives (non-5s). In contrast, the PR curve makes it clear that the classifier has room for improvement (the curve could be closer to the top right corner).
 
-## 4. Training Models
+</details>
+
+<details markdown="block">
+<summary> 4. Training Models </summary>
 
 ### Linear Regression
 
