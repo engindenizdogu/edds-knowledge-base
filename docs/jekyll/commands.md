@@ -45,7 +45,8 @@ By default `JEKYLL_ENV` is development. The `JEKYLL_ENV` is available to you
 {% if jekyll.environment == "production" %}
   <script src="my-analytics-script.js"></script>
 {% endif %}
-{% endraw %}```
+{% endraw %}
+```
 
 More info: [Jekyll - Deployment](https://jekyllrb.com/docs/step-by-step/10-deployment/)
 

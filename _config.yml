@@ -111,9 +111,9 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "GitHub":
-    - "https://www.linkedin.com/in/engindenizdogu"
-  "LinkedIn":
     - "https://github.com/engindenizdogu"
+  "LinkedIn":
+    - "https://www.linkedin.com/in/engindenizdogu"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true

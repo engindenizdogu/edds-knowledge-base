@@ -2,16 +2,12 @@
 title: Year in Review
 nav_order: 2
 ---
-
 ## 2025
 
-| Duration              | Action    |
-|:---------------------|:----------|
-| **Feb 17 - March 31** | Book Study: Hands On Machine Learning with Scikit Learn and TensorFlow, Chapters 1-4 |
-| **May 4 - June 29**   | Vibe coded (sort of 🙂) [www.eniyirestoranlar.com](https://www.eniyirestoranlar.com/) to learn how to create an online directory |
-| _**Currently working on...**_ | _a Kaggle competition_ |
-| _**Next Up...**_ | _Review of ML/DL Algorithms_ |
-
-## Books
-
-- Hands on Machine Learning with Scikit Learn Keras and TensorFlow 2nd Edition, Aurélien Geron
+| Dates                    | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| *September 1-9*          | I started learning Jekyll and ended up building this blog. The setup is simple: I write and organize my notes in Obsidian, publish them to GitHub, and the site runs on a Jekyll theme called [Just the Docs](https://github.com/just-the-docs/just-the-docs).                                                                                                                                                                                                                                                                        |
+| *August 26-28*           | I worked on Kaggle’s infamous Titanic competition. Since I’d never completed a Kaggle competition before, it was a great way to finally get started.                                                                                                                                                                                                                                                                                                                                                                                  |
+| *Short break*            | Moved to New York to pursue my Master’s at Stevens Institute of Technology.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| *May 4 - June 29*        | I (sort of 🙂) vibe-coded [www.eniyirestoranlar.com](https://www.eniyirestoranlar.com/) to learn how to build an online directory. The goal was to highlight high-quality restaurants. It uses the Google Maps Places API for restaurant data — but with a twist: I added a preprocessing step that filters out big chains (like McDonald’s, Starbucks, etc.) and lower-rated spots. This was more of an experimental project to see what vibe-coding a product with Cursor might look like. You can find the code in my GitHub repo. |
+| *February 17 - March 31* | [Book Study] Hands On Machine Learning with Scikit Learn and TensorFlow, Chapters 1-4                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
