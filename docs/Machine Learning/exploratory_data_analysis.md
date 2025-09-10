@@ -85,4 +85,4 @@ Exploratory Data Analysis refers to the critical process of performing initial i
 
 #### Sources
 - [Exploratory Data Analysis for beginners 🔥🔥](https://www.kaggle.com/code/jihenbelhoudi/exploratory-data-analysis-for-beginners#2.-Distribution-plot-for-all-columns:)
-- [Exploratory Data Analysis (EDA) checklist - fnl.es](https://fnl.es/Science/Statistics/Exploratory+Data+Analysis+\(EDA\)+checklist)
+- [Exploratory Data Analysis (EDA) checklist - fnl.es](https://fnl.es/Science/Statistics/Exploratory+Data+Analysis+(EDA)+checklist)
