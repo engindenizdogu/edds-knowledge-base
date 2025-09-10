@@ -18,21 +18,21 @@
 
 // Style details summary as h3 header
 details summary {
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0;
-    cursor: pointer;
-    border: none;
-    background: none;
-    text-decoration: none;
-    margin-top: 1em !important;
-    
-    &:hover {
-      color: var(--link-hover);
-    }
-    
-    &:focus {
-      outline: 2px solid var(--focus);
-      outline-offset: 2px;
-    }
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-decoration: none;
+  margin-top: 1em !important;
+
+  &:hover {
+    color: var(--link-hover);
   }
+
+  &:focus {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+}

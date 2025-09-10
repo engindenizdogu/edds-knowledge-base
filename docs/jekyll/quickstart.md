@@ -28,4 +28,4 @@ cd myblog
 bundle exec jekyll serve
 ```
 
-6. Browse to [http://localhost:4000](http://localhost:4000/)
+6. Browse to your local host (http://localhost:4000/)
