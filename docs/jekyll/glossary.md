@@ -13,7 +13,7 @@ parent: Jekyll
 : A `Gemfile` is a list of gems used by your site. Every Jekyll site has a Gemfile in the main folder.
 
 **Jekyll**
-: Jekyll is a static site generator. It processes your site by converting Markdown and Liquid files into static HTML. It is written in Ruby
+: [Jekyll](https://jekyllrb.com/) is a static site generator. It processes your site by converting Markdown and Liquid files into static HTML. It is written in Ruby
 
 **Liquid**
 : Liquid is an open-source template language created by [Shopify](https://www.shopify.com/) and written in Ruby. It is the backbone of Shopify themes and is used to load dynamic content on storefronts. Liquid has been in production use at Shopify since 2006 and is now used by many other hosted web applications.
