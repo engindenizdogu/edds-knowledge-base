@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "590a5e6fc9e52605",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1a826e2bc111d60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1baabe720e528a5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/jekyll/commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "commands"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "144b68d586436349",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c1c54df4029544b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24a0ddbd328ff364",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7ef4b4ce88d79d82",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "56da753351faeeef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c434f03a54363fcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "047b4f11b72e4e7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29e8cb8405de5387",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/jekyll/commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for commands"
+            }
+          },
+          {
+            "id": "0a1e2b0aadbe746c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/jekyll/commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from commands"
+            }
+          },
+          {
+            "id": "6ecffc1a29eec328",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0173eee137c22b20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/jekyll/commands.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of commands"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1baabe720e528a5e",
+  "lastOpenFiles": [
+    "_site/docs/Math for ML/probability/index.html",
+    "_site/docs/Math for ML/linear_algebra/index.html",
+    "_site/docs/Math for ML/glossary/index.html",
+    "_site/docs/Machine Learning/normalization/index.html",
+    "_site/docs/Machine Learning/model_evaluation/index.html",
+    "_site/docs/Machine Learning/glossary/index.html",
+    "_site/docs/Machine Learning/exploratory_data_analysis/index.html",
+    "_site/docs/Machine Learning/code_snippets/index.html",
+    "_site/docs/Machine Learning/algorithms/index.html",
+    "_site/docs/jekyll/quickstart/index.html",
+    "_site/docs/jekyll/notes/index.html",
+    "_site/assets/images/small-image.jpg",
+    "_site/assets/images/large-image.jpg"
+  ]
+}
