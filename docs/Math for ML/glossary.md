@@ -23,7 +23,8 @@ parent: Math for ML
 
 **Dot Product**
 : Dot product or inner product is an algebraic operation that takes two equal-length sequences of numbers and returns a single number.
-![](dot_prod.png)
+
+![](../../../assets/images/dot_prod.png)
 
 **Unit Vector**
 : Vector with a length of 1.
