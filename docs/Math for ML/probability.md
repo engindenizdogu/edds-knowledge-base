@@ -16,15 +16,20 @@ parent: Math for ML
 - If A and B are independent events: $P(A \vert B) = P(A)$ and $P(A ∩ B) = P(A) . P(B)$
 	- If A and B are independent: $Cov(A,B) = 0$
 
-- $P(A \vert B) = {P(A \cap B) \over P(B)}$ or $P(A ∩ B) = P(A \vert B) . P(B) = P(B \vert A) . P(A)$
-
-- Bayes' Formula:
-	- $P(A \vert B) = P(B \vert A)P(A) / P(B)$
-
 - A and B are *conditionally independent* if: $P((A ∩ B)/C) = P(A \vert C) . P(B \vert C)$
 
-- Law of total probability
-	- $P(A) = P(A \vert B1).P(B1) + P(A \vert B2).P(B2) + ... + P(A \vert Bn).P(Bn)$
+**Bayes' Formula:**
+$$P(A \vert B) = {P(B \vert A)P(A) \over P(B)}$$
+
+$$P(A \vert B) = {P(A \cap B) \over P(B)} \text{ or } P(A ∩ B) = P(A \vert B) . P(B) = P(B \vert A) . P(A)$$
+
+In other words:
+$$\text{posterior} = {\text{likelihood} * \text{prior} \over \text{evidence}}$$
+
+**Law of Total Probability**
+$$P(A) = P(A \vert B1).P(B1) + P(A \vert B2).P(B2) + ... + P(A \vert Bn).P(Bn)$$
+or,
+$$p(x)=\sum_1^cp(x  \vert y_i)P(y_i)$$
 
 **TODO:**
 - *Distributions*

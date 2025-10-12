@@ -23,7 +23,7 @@ parent: Math for ML
 
 **Dot Product**
 : Dot product or inner product is an algebraic operation that takes two equal-length sequences of numbers and returns a single number.
-![](../../../assets/images/dot-prod.png)
+![](dot_prod.png)
 
 **Unit Vector**
 : Vector with a length of 1.
@@ -46,3 +46,5 @@ parent: Math for ML
 **Gaussian Elimination**
 : Performing elementary transformation to bring a system of linear equations into reduced row-echelon form.
 
+**Span**
+: Span of a space is defined as all possible linear combinations of all the vectors in that space.

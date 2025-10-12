@@ -11,5 +11,5 @@ I'm a master's student in Machine Learning at Stevens Institute of Technology. I
 
 {: .note-title }
 > Fun Fact
->
+> 
 > This site was built using [Just the Docs](https://github.com/just-the-docs/just-the-docs) (a Jekyll theme for documentation). I use Obsidian to write and organize my markdown notes, which I then publish directly to GitHub. If you’re curious, you can check out my notes about Jekyll in the menu.
